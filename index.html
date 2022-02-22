@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>To-do list with Cat!</title>
+</head>
+<body>
+    <div class="flex">
+        <header><h1>Today's To-Do List</h1></header>
+        <main>
+            <div id="date">0000년 00월 00일</div>
+            <div id="todos">
+                <ul id="todoList"></ul>
+                <form id="todoForm">
+                    <input type="text" class="todo_input"/>
+                    <input type="submit" class="todo_submit" value="+"/>
+                </form>
+            </div>
+        </main>
+    </div>
+    
+    <div class="aside_menu">
+        <aside id="menu"></aside>
+        <footer>
+            <input type="button" id="menubtn" value="menu"/>
+        </footer>
+    </div>
+    
+    <script src="js/app.js"></script>
+    <script src="js/date.js"></script>
+</body>
+</html>
