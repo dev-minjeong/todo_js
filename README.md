@@ -1,3 +1,3 @@
 # Todo_project
-To Do List Toy Project
-link : [here](https://minjeong-dev.github.io/)
+This is To Do List Toy Project
+#link : [here](https://minjeong-dev.github.io/)
