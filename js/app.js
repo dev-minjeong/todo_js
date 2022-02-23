@@ -7,10 +7,10 @@ function menuOpen() {
     menubtn.classList.toggle("open");
     
     if(menu.className == 'open'&& menubtn.className == 'open') {
-        menu.style.width = "300px";
+        menu.style.left = "0";
         menubtn.value = "close";
     } else {
-        menu.style.width = "0";
+        menu.style.left = "-300px";
         menubtn.value = "menu";
     }
 }

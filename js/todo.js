@@ -29,13 +29,13 @@ function paintTodos(newTodo) {
     const checkBtn = document.createElement("button");
     checkBtn.classList.toggle("todo-check");
     checkBtn.addEventListener("click", checkTodos);
-    checkBtn.innerText = "V";
+    checkBtn.innerText = "✔";
     const todoSpan = document.createElement("span");
     todoSpan.innerText = newTodo.text;
     const deleteBtn = document.createElement("button");
     deleteBtn.classList.toggle("todo-delete");
     deleteBtn.addEventListener("click", deleteTodos);
-    deleteBtn.innerText = "X";
+    deleteBtn.innerText = "✘";
     liTodo.appendChild(checkBtn);
     liTodo.appendChild(todoSpan);
     liTodo.appendChild(deleteBtn);
